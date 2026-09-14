@@ -11,20 +11,18 @@
 <br>
 
 <!-- NAME / TAGLINE - animated typing -->
-<a href="https://github.com/emmi-lili">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=AA9BEF&center=true&vCenter=true&width=880&lines=Emmi+-+Blockchain+Engineer+%26+Tech+Lead;Architecture+of+Wallets+/+Rust+/+Digital+Assets+Infra;Building+here+since+Forever" alt="typing banner">
+<a href="https://github.com/ElenaRivilla">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=AA9BEF&center=true&vCenter=true&width=880&lines=Elena+Rivilla+-+Full+Stack+Web+Developer;Tech+Manager+%40+Travelance;.NET+%2F+Angular+%2F+Cloud+Infra;Building+here+since+Forever" alt="typing banner">
 </a>
 
 <br>
 
-<!-- SOCIALS — LinkedIn stays brand blue (glyph vanishes on custom fills). Others themed. -->
-<a href="https://www.linkedin.com/in/emmi-aguilar-rivero/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;&nbsp;
-<a href="https://instagram.com/emmcriptada"><img src="https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=aa9bef" alt="Instagram"></a>&nbsp;&nbsp;
-<a href="https://x.com/emmcriptada"><img src="https://img.shields.io/badge/X-0d1117?style=for-the-badge&logo=x&logoColor=aa9bef" alt="X"></a>
+<!-- SOCIALS — LinkedIn stays brand blue (glyph vanishes on custom fills). -->
+<a href="https://www.linkedin.com/in/elena-rivilla/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=emmi-lili&style=flat&color=aa9bef&label=profile+views" alt="profile views">
+<img src="https://komarev.com/ghpvc/?username=ElenaRivilla&style=flat&color=aa9bef&label=profile+views" alt="profile views">
 
 </div>
 
@@ -33,23 +31,23 @@
 
 ## This is me :)
 
-Hi, I'm **Emmi**, blockchain engineer and tech lead, broadcasting from Bolivia 🇧🇴.
-I build the infrastructure that moves digital assets, and I'm a little obsessed with
-making sure regular people can use it without being afraid of it.
+Hi, I'm **Elena**, full stack web developer and tech manager, broadcasting from
+Islas Baleares, España 🇪🇸.
+I work across the whole stack, from backend systems to the infra that keeps them running,
+and I care about building things that are solid, maintainable, and actually work in production.
 
-- 🏦 **Technical Account Manager at [BitGo](https://www.bitgo.com)**: bridging the real world and crypto through institutional digital asset custody, wallets, and signing infrastructure.
-- ⭐ **Stellar Ambassador's program Country Lead** - Building the next amazing generation of DEVELOPERS. 
-- 🤖 Unapologetically obsessed with **AI and agents**. Mix that with blockchain and you get the perfect recipe, agents that can hold, move and verify value on their own.
-- 🎙️ Currently building my personal brand, **[@emmcriptada](https://instagram.com/emmcriptada)**: AI & Web3 explained in plain Spanish for people who never thought tech was for them.
-- 🌱 **My mission:** help people who want to become great and actually get there, through community, mentorship and shipping real things. 
-- 💬 Talk to me about **Web3 in LATAM** and you'll have my full attention.
+- 💼 **Web Developer & Tech Manager at [Travelance](https://travelance.com)**: leading development and managing the technical side of our products.
+- 🛠️ **Full stack**, comfortable end to end: from C# / .NET APIs to Angular frontends, with the infra and tooling to ship and monitor it all.
+- ☁️ Working daily with **cloud & DevOps**: Docker, OpenShift, Azure DevOps, and observability with Dynatrace.
+- 🤖 Exploring **AI-assisted development** with Claude Code and Copilot as part of the daily workflow.
+- 💬 Talk to me about **.NET, Angular, or how to keep a tech team shipping without breaking things**, and you'll have my full attention.
 <br>
 
 <div align="center">
 
-## my perfect stack`
+## my perfect stack
 
-<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,solidity,rust,python,postgres,tailwind,git,github,docker,vscode&perline=7" alt="tech stack">
+<img src="https://skillicons.dev/icons?i=cs,angular,dotnet,ts,docker,postgres,redis,mongodb,azure,github,git,jira&perline=6" alt="tech stack">
 
 </div>
 
@@ -111,6 +109,6 @@ making sure regular people can use it without being afraid of it.
 
 <div align="center">
 
-<sub>` Build with love· @emmcriptada `</sub>
+<sub>` Build with love · Elena Rivilla `</sub>
 
 </div>
