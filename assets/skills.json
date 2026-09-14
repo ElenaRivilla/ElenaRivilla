@@ -2,12 +2,12 @@
   "title": "Skill Radar",
   "_comment": "Self-rated, 0-100. Edit these and the Charts workflow redraws the radar.",
   "axes": [
-    { "label": "Blockchain / Web3",     "value": 88 },
-    { "label": "Stellar / Soroban",     "value": 82 },
-    { "label": "Smart Contracts",       "value": 75 },
-    { "label": "Next.js / React",       "value": 85 },
+    { "label": ".NET / C#",             "value": 88 },
+    { "label": "Angular",               "value": 85 },
+    { "label": "Cloud & DevOps",        "value": 78 },
     { "label": "TypeScript",            "value": 84 },
-    { "label": "Wallet Architecture",   "value": 80 },
-    { "label": "Digital Assets Infra",  "value": 78 }
+    { "label": "Databases",             "value": 76 },
+    { "label": "Tech Management",       "value": 82 },
+    { "label": "Observability",         "value": 70 }
   ]
 }

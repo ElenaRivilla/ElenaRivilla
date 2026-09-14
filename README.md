@@ -36,7 +36,7 @@ Islas Baleares, España 🇪🇸.
 I work across the whole stack, from backend systems to the infra that keeps them running,
 and I care about building things that are solid, maintainable, and actually work in production.
 
-- 💼 **Web Developer & Tech Manager at [Travelance](https://travelance.com)**: leading development and managing the technical side of our products.
+- 💼 **Web Developer & Tech Manager at [Travelance](https://www.travelance.club/es/inicio)**: leading development and managing the technical side of our products.
 - 🛠️ **Full stack**, comfortable end to end: from C# / .NET APIs to Angular frontends, with the infra and tooling to ship and monitor it all.
 - ☁️ Working daily with **cloud & DevOps**: Docker, OpenShift, Azure DevOps, and observability with Dynatrace.
 - 🤖 Exploring **AI-assisted development** with Claude Code and Copilot as part of the daily workflow.

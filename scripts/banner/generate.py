@@ -30,21 +30,21 @@ TRAVELLER_COUNT = 900
 SEED = 314159
 
 ROWS = [
-    ("Subject", "Emmi"),
-    ("Role", "Blockchain Engineer · Tech Lead"),
-    ("Origin", "Bolivia"),
-    ("Education", "Community · LATAM"),
+    ("Subject", "Helen"),
+    ("Role", "Full Stack Web Developer · IT Manager"),
+    ("Origin", "Spain"),
+    ("Education", "CFGS Web Application Development · Graphic Design"),
     ("Status", "Building + Learning + Shipping"),
-    ("ToolChain", "Sublime · Cursor · Git"),
-    ("Core.Lang", "TypeScript · Rust · Solidity"),
-    ("Core.Frontend", "React · Next.js · Three.js · Tailwind"),
-    ("Core.Backend", "Node · Python"),
-    ("Core.Database", "Postgres · Supabase"),
-    ("Core.Infra", "Vercel · Docker · AWS"),
+    ("ToolChain", "VS Code · Kiro · VS Community · OpenSpec"),
+    ("Core.Lang", "TypeScript · C# · Python · Git"),
+    ("Core.Frontend", "Angular · JavaScript · Tailwind · jQuery · PrimeNG"),
+    ("Core.Backend", "Python · .NET · Java"),
+    ("Core.Database", "Postgres · MySQL · MongoDB · Redis · Neon"),
+    ("Core.Infra", "Docker · AWS · OpenShift"),
     ("Grid.Mail", "—"),
-    ("Grid.LinkedIn", "/in/emmi-aguilar-rivero"),
-    ("Grid.GitHub", "emmi-lili"),
-    ("Grid.X", "@emmcriptada"),
+    ("Grid.LinkedIn", "/in/elena-rivilla-8a4b6421b/"),
+    ("Grid.GitHub", "ElenaRivilla"),
+    ("Grid.X", "—"),
 ]
 
 THEMES = {
@@ -159,7 +159,7 @@ def portrait_points(theme: str, rng: np.random.Generator) -> np.ndarray:
     """Return sampled x/y banner coordinates from a 300x340 dither grid."""
     source = Image.open(SOURCE).convert("RGBA")
     # Tighter head + shoulders crop so face detail fills the VISUAL.MAP frame.
-    crop = source.crop((18, 28, 390, 450)).resize((300, 340), Image.Resampling.LANCZOS)
+    crop = source.crop((245, 50, 577, 433)).resize((300, 340), Image.Resampling.LANCZOS)
     rgb = crop.convert("RGB")
     alpha = np.asarray(crop.getchannel("A"), dtype=np.float32) / 255.0
 
@@ -175,25 +175,21 @@ def portrait_points(theme: str, rng: np.random.Generator) -> np.ndarray:
 
     # Equalize against the subject only (ignore empty alpha) so lit skin vs dark
     # hair doesn't crush midtones; then punch local contrast for facial edges.
-    if theme == "dark":
-        mask = Image.fromarray(np.uint8((alpha > 0.08) * 255), "L")
-        prepared = ImageOps.equalize(prepared, mask=mask)
-    else:
-        prepared = ImageOps.autocontrast(prepared, cutoff=1)
-    prepared = ImageEnhance.Contrast(prepared).enhance(1.35)
-    prepared = prepared.filter(ImageFilter.UnsharpMask(radius=2, percent=175, threshold=1))
+    mask = Image.fromarray(np.uint8((alpha > 0.08) * 255), "L")
+    prepared = ImageOps.equalize(prepared, mask=mask)
+    prepared = ImageEnhance.Contrast(prepared).enhance(1.55)
+    prepared = prepared.filter(ImageFilter.UnsharpMask(radius=2.5, percent=260, threshold=0))
     bits = floyd_steinberg(np.asarray(prepared))
     active = bits if select_lit else ~bits
-    if theme == "dark":
-        active &= alpha > 0.08
+    active &= alpha > 0.08
 
     # Keep the full 300×340 lattice — skipping 2×2 cells was the soft/blurry look.
     ys, xs = np.where(active)
     if len(xs) == 0:
         return np.zeros((0, 2), dtype=np.float32)
     points = np.column_stack((74 + xs, 154 + ys)).astype(np.float32)
-    if len(points) > 18000:
-        points = points[rng.choice(len(points), 18000, replace=False)]
+    if len(points) > 24000:
+        points = points[rng.choice(len(points), 24000, replace=False)]
     return points
 
 
@@ -282,7 +278,7 @@ def render_svg(
         '<svg xmlns="http://www.w3.org/2000/svg" '
         f'width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" '
         'aria-labelledby="title desc">',
-        "<title id=\"title\">Emmi's live system profile</title>",
+        "<title id=\"title\">Helen's live system profile</title>",
         '<desc id="desc">Animated terminal profile with a dithered portrait and '
         "Rust, code, and Stellar silhouettes.</desc>",
         "<defs>",
@@ -401,7 +397,7 @@ def render_svg(
             f'stroke="{t["chrome"]}"/>',
             f'<text x="1055" y="111" text-anchor="middle" fill="{t["chrome"]}" '
             'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" '
-            'font-weight="700">@emmi-lili</text>',
+            'font-weight="700">@ElenaRivilla</text>',
         ]
     )
 
