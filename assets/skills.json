@@ -4,10 +4,9 @@
   "axes": [
     { "label": ".NET / C#",             "value": 88 },
     { "label": "Angular",               "value": 85 },
-    { "label": "Cloud & DevOps",        "value": 78 },
+    { "label": "Cloud & DevOps",        "value": 51 },
     { "label": "TypeScript",            "value": 84 },
     { "label": "Databases",             "value": 76 },
-    { "label": "Tech Management",       "value": 82 },
-    { "label": "Observability",         "value": 70 }
+    { "label": "Tech Management",       "value": 42 }
   ]
 }
