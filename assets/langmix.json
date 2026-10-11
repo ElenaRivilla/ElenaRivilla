@@ -6,7 +6,15 @@
     { "label": "Angular",   "value": 85 },
     { "label": "TypeScript","value": 84 },
     { "label": "SQL",       "value": 80 },
-    { "label": "Python",    "value": 65 },
-    { "label": "Java",      "value": 60 }
+    { "label": "Python",    "value": 75 },
+    { "label": "Java",      "value": 40 },
+    { "label": "PrimeNG",   "value": 66 },
+    { "label": "HTML",      "value": 70 },
+    { "label": "CSS/SCSS",  "value": 70 },
+    { "label": "Flask",     "value": 50 },
+    { "label": "Django",    "value": 78 },
+    { "label": "Bootstrap", "value": 35 },
+    { "label": "Tailwind",  "value": 79 },
+    { "label": "jQuery",    "value": 44 }
   ]
 }

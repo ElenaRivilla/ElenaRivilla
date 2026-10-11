@@ -2,11 +2,13 @@
   "title": "Skill Radar",
   "_comment": "Self-rated, 0-100. Edit these and the Charts workflow redraws the radar.",
   "axes": [
-    { "label": "Tech Management",       "value": 42 },
-    { "label": ".NET / C#",             "value": 88 },
-    { "label": "Angular",               "value": 85 },
-    { "label": "DevOps",                "value": 51 },
-    { "label": "TypeScript",            "value": 84 },
-    { "label": "Databases",             "value": 76 } 
+    { "label": "Azure DevOps", "value": 84 },
+    { "label": "Docker",       "value": 64 },
+    { "label": "OpenShift",    "value": 88 },
+    { "label": "Dynatrace",    "value": 85 },
+    { "label": "GitHub",       "value": 90 },
+    { "label": "MongoDB",      "value": 56 },
+    { "label": "Redis",        "value": 40 },
+    { "label": "LINQ",         "value": 77 }
   ]
 }
